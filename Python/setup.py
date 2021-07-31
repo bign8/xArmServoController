@@ -19,5 +19,5 @@ setup(
     url='https://github.com/ccourson/xArmServoController/tree/master/PC/Python/xarm',
     license=license,
     packages=find_packages(exclude=('tests', 'docs', 'old')),
-    install_requires=['pywinusb']
+    install_requires=['hidapi', 'pywinusb']
 )
